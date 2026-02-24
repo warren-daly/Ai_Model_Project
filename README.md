@@ -46,9 +46,9 @@ This project develops a URL classifier that detects malicious links (phishing, m
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
-| **KNN (k=25)** | 100% | 1.00 | 1.00 | 1.00 |
-| XGBoost | 92.3% | 0.97 | 0.93 | 0.95 |
-| Random Forest | 97.8% | 0.98 | 0.97 | 0.97 |
+| **KNN (k=25)** | 93% | 1.00 | 1.00 | 1.00 |
+| XGBoost | 92.3% | 0.91 | 0.93 | 0.95 |
+| Random Forest | 94.8% | 0.98 | 0.97 | 0.97 |
 
 ### Real-World Testing
 - **Detection Rate**: 95% on live phishing URLs
